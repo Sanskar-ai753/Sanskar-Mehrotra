@@ -1,0 +1,72 @@
+block element takes complete line 
+inline element begins after previous line
+
+<elements> </elements> : natural tag
+<elements/> : void tag (self closing tab) 
+
+Attributes : elements me extra info add karne ka kaam karta h 
+ye humesha opening tag me hi jayega 
+< h1 attribute = "value"  attribute = "value 2" >
+any elements can have n numbers of attributes 
+
+<img/> has mainly 2 attributes : src and alt
+src : tell source of image
+alt : is used in case image is corrupted
+
+We have 2 paths : Relative path & Absolute path
+
+Absolute path: proper address of that things ( https wala , means google se address copy paste karna h )
+
+Relative path: folder se link karna 
+'.' apko parent folder me le jata h 
+
+npm init : make package.json file which contain all dependencies and versions
+
+npm init -y : auto fill date
+
+Rendering engine :
+HTML -> DOM -> CSSOM -> Render Tree -> Paint
+
+DOM : document object model , it convert html into object in javascript
+
+programming language : logic 
+markup language : format 
+
+Meta tags : we give extra info or small instruction that describe the page to browser and search engine.
+It is used tell descriptions , keywords for search , deault opening language , screen size and so on ....
+It is present in head
+
+
+<figure> and <figcaption> : img + caption ka parent 
+
+<pre> : same as written 
+<code> , <var> , <samp> : 
+
+
+del vs strike : strike mtlb chala gaya
+del mtlb new value ho sakta h like on flipkart
+
+<blockquote> : quote 
+<span> : inline
+<div> : block level
+
+
+
+imp tags : 
+ordered list <ol>
+unordered list <ul>
+discriptive list <dl>
+
+cross origin : resource sharing 
+decoding :"async" baaki disturb nahi hoga , it change browsering process
+fetchpriority : which image comes first 
+
+srcset: multiple set of source for differnet device , it is selected by browser
+
+fluid image have fixed aspect ratio
+link rel = icon href me source likhna h , and type
+
+<anchor tag >: inter , external, intra
+intra : same page with diff div
+external : other website
+inter : internal website but diif page

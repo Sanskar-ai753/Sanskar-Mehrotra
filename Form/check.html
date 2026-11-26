@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML Input types</h1>
+    <form>
+        <label for="">Select Any Skills</label>
+        <input type="checkbox" value="html" name="skill" checked>HTML</input>
+        <input type="checkbox" value="css" name="skill" >css</input>
+        <input type="checkbox" value="js" name="skill">js</input>
+        <br>
+        <select name="skills" size="2">
+            <option value="">Select your Skill</option>
+            <option value="H" selected>HTML</option>
+            <option value="C">CSS</option>
+            <option value="J">JS</option>
+        </select>
+        <select name="courses">
+            <optgroup label="web">
+              <option value="H">HTML</option>
+              <option value="C">CSS</option>
+              <option value="J">JS</option>
+            </optgroup>
+
+            <optgroup label="laguage">
+              <option value="p">python</option>
+              <option value="C">C+</option>
+              <option value="J">Java</option>
+            </optgroup>
+        </select><br><br>
+        <input name="browser" list="browser">
+         <datalist id="browser">
+            <option value="Chrome">
+            <option value="firefox">
+            <option value="bing">
+         </datalist>
+         <br><br>
+         <textarea name="" id="" rows="10" cols="30" placeholder="enter your feedback"></textarea><br>
+         <meter min="0" max="100" high="80" low="20" value="65"></meter>
+    </form>
+</body>
+</html>

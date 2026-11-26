@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h1>Student Registration Form</h1>
+        <label for="username" >Name</label>
+        <input id="username" name="Name of student" type="text" placeholder="name" autofocus><br><br>
+        <label for="email"> Enter email</label>
+        <input id="email" name="email" type="email" placeholder="enter email"><br><br>
+        <label for="contact" >Mobile.no</label>
+        <input id="contact" name="contact number" type="number" placeholder="mobile no."><br><br>
+        <label for="gender">Gender :</label>
+        <input id="gender" type="radio" name="gender" value="Male">Male
+        <input id="gender" type="radio" name="gender" value="female">Female
+        <input id="gender" type="radio" name="gender" value="other">Other<br><br>
+        <select name="category">
+            <option>select your category</option>
+            <option value="gen">GEN</option>
+            <option value="OBC">OBC</option>
+            <option value="EWS">EWS</option>
+            <option value="SC">SC</option>
+            <option value="st">ST</option>
+        </select><br><br>
+        <label for="">DOB </label>
+        <input id="" name="DOB" type="date"><br><br>
+        <label for="">Campus</label>
+        <input type="text" id="" name="city" list="city">
+        <datalist id="city">
+            <option>Noida</option>
+            <option>Lucknow</option>
+            <option>Pune</option>
+            <option>Banglore</option>
+        </datalist>
+    </form>
+</body>
+</html>
